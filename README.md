@@ -174,3 +174,5 @@ git remote set-head origin master # 设置远程仓库的HEAD指向master分支
 git branch --set-upstream master origin/master
 
 git branch --set-upstream develop origin/develop
+
+> 更加详细讲解移步至：http://www.yiibai.com/git/git_remote.html
