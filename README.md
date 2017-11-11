@@ -69,6 +69,10 @@ git br -r # 查看远程分支
 
 git br <new_branch> # 创建新的分支
 
+git br -m <old_branch> <new_branch> # 重命名本地分支
+
+git br -av <old_branch> <new_branch> # 重命名远程分支
+
 git br -v # 查看各个分支最后提交信息
 
 git br --merged # 查看已经被合并到当前分支的分支
@@ -139,7 +143,7 @@ git push origin <local_branch> # 创建远程分支， origin是远程仓库名
 
 git push origin <local_branch>:<remote_branch> # 创建远程分支
 
-git push origin :<remote_branch> #先删除本地分支(git br -d <branch>)，然后再push删除远程分支
+git push origin :<remote_branch> #先删除本地分支(git br -d <branch>)，然后再push删除远程分支(git push --delete origin <branch>)
 
 ### Git远程仓库管理
 
